@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%----------HEADING----------
+	% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+		%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+		% \end{tabular*}
+	
+	\begin{center}
+		\textbf{\Huge \scshape Daniel Lowe} \\ \vspace{1pt}
+		\small (+64) 276-263-098 $|$ \href{mailto:danielsimonlowe@gmail.com}{\underline{danielsimonlowe@gmail.com}} $|$ 
+		\href{https://www.linkedin.com/in/daniel-simon-lowe/}{\underline{linkedin.com/in/daniel-simon-lowe}} $|$
+		\href{https://github.com/DanieSimonlLowe}{\underline{github.com/DanieSimonlLowe}} $|$ NZ Citizen  $|$ Willing to Relocate to Auckland
+	\end{center}
+	
+	\section{Professional Summary}
+	
+	Junior software engineer with the proven ability to design embedded features and diagnose complex issues such as memory leaks. Expericined writing production level code with automated testing and collaborating in cross-functional teams to deliver maintainable software. 
+	
+
+
+	
+	
+	%-----------EXPERIENCE-----------
+	\section{Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Junior Software Engineer}{June 2025 -- Present}
+	{Frog Parking}{Manawatū, NZ}
+	
+	\resumeItemListStart
+	\resumeItem{Diagnosed and resolved crashes on embedded controllers caused by a memory leak by analysing logs, reviewing camera footage, and reproducing the issue locally.}
+	\resumeItem{Implemented an embedded feature where a local session on the embedded controller could switch which global session it was related to when more plate measurements came in.}
+	\resumeItem{Refactored parking gates to use on-demand connections with the embedded controller instead of persistent connections, improving reliability.}
+	\resumeItem{Developed and maintained server and front-end software for configuration management and hardware data interpretation for deployed IoT devices.}
+	\resumeItem{Wrote automated unit and integration tests both for fixes and for features.}
+	\resumeItem{Engaged in code reviews, both being reviewed and reviewing other peoples code.}
+	\resumeItemListEnd
+	
+	
+	\resumeSubheading
+	{Software Engineer Intern}{Nov. 2023 -- Jan. 2024 and Nov. 2024 -- Feb. 2025}
+	{Kahu EV}{Manawatū, NZ}
+	\resumeItemListStart
+	\resumeItem{Developed a feature on the server so that it could store historical telemetry state when ingesting vehicle telemetry data. }
+	\resumeItem{Built a dashboard to visualise EV data, enabling faster troubleshooting.}
+	\resumeItem{Iteratively profiled and optimised the vehicle simulator to meet a sub-5-minute runtime target for cross-USA route trip simulation.}
+	\resumeItem{Collaborated with experienced mechanical engineers to develop a vehicle model for energy consumption modelling.}
+	%\resumeItem{Validated simulation outputs against real-world vehicle energy consumption data.}
+	%\resumeItem{Integration into the production system, where results were used to support sales and customer decision-making.}
+	\resumeItemListEnd
+	
+	% -----------Multiple Positions Heading-----------
+	%    \resumeSubSubheading
+	%     {Software Engineer I}{Oct 2014 - Sep 2016}
+	%     \resumeItemListStart
+	%        \resumeItem{Apache Beam}
+	%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+	%     \resumeItemListEnd
+	%    \resumeSubHeadingListEnd
+	%-------------------------------------------
+	
+	\resumeSubHeadingListEnd
+	
+	% this needed to be done (below here)
+	%-----------PROJECTS-----------
+	\section{Projects}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+	{\textbf{Battery Prognostics} $|$ \emph{C++, Algorithm Development}}{Feb. 2024 -- Nov. 2024, June 2025 -- Present}
+	\resumeItemListStart
+	\resumeItem{Designed and implemented a physics-based battery prognostics simulator in modern C++.}
+	%
+	\resumeItem{Built and evaluated multiple estimation algorithms against NASA battery dataset, comparing accuracy, stability, and noise sensitivity.}
+
+	\resumeItem{Re-architected estimation and modelling components to address problems I found in earlier honours research.}
+	\resumeItemListEnd
+	
+	
+	%\resumeProjectHeading
+	%{\textbf{Honours Prognostics Project} $|$ \emph{Python, Physical Modeling}}{Feb. 2024 -- Nov. 2024}
+	%\resumeItemListStart
+	%\resumeItem{Researched battery prognostics and capacity estimation combining techines from multiple papers.}
+	%\resumeItem{Evaluated several techniques on real-world battery data.}
+	%\resumeItem{Identified and documented key limitations related to noise sensitivity, time-step irregularity, and model assumptions.}
+	%\resumeItemListEnd
+	
+	
+	\resumeSubHeadingListEnd
+	
+	
+
+	
+		%-----------EDUCATION-----------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{University of Canterbury}{Christchurch, NZ}
+	{Bachelor of Software Engineering with Honours}{Feb. 2021  -- Nov. 2024}
+	\resumeSubHeadingListEnd
+
+	
+	%-------------------------------------------
+\end{document}
