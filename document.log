@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.16)  27 MAR 2026 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.16)  11 MAY 2026 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,11 +350,11 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 154.
+(Font)              <10.95> on input line 126.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 154.
+(Font)              <8> on input line 126.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 154.
+(Font)              <6> on input line 126.
 
 
 [1
@@ -370,16 +370,16 @@ L3 programming layer <2024-11-02>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: AAAF78A2653EDC55209E4F8DF0457FAF;327.
+(rerunfilecheck)             Checksum: 455CB2537660174AF02622ACB8CBC163;410.
  ) 
 Here is how much of TeX's memory you used:
- 10408 strings out of 473682
- 166742 string characters out of 5719215
- 591236 words of memory out of 5000000
- 33378 multiletter control sequences out of 15000+600000
+ 10410 strings out of 473682
+ 166762 string characters out of 5719215
+ 597236 words of memory out of 5000000
+ 33379 multiletter control sequences out of 15000+600000
  563661 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,593b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,535b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/Danie/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -388,9 +388,9 @@ ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Danie/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Danie/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Danie/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (1 page, 101075 bytes).
+Output written on document.pdf (1 page, 103201 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
